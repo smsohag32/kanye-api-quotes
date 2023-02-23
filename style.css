@@ -1,0 +1,38 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    background-color: black;
+    color: white;
+}
+
+#btn-quote{
+    padding: 10px 20px;
+    background-color: coral;
+    color: white;
+    border: 1px transparent red;
+    border-color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+input{
+    padding: 10px 20px;
+    background-color: coral;
+    color: white;
+    border: 1px transparent red;
+    border-color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#btn-quote:hover{
+   border: 1px solid red;
+   transition: all 1s;
+   
+}
+
+#quote{
+    text-align: center;
+
+    margin-top: 110px;
+}
